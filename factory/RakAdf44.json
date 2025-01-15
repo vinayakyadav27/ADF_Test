@@ -1,0 +1,9 @@
+{
+	"name": "RakAdf44",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "dc555907-06ff-43b6-bbae-fb541bdc2de1",
+		"tenantId": "bf5fa81f-9831-46a2-8bbf-6ca4c9a9eb4c"
+	}
+}
