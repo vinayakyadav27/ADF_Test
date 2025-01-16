@@ -34,7 +34,7 @@ jobs:
         resourceGroupName: 'RakRG'
         template: ./rakadftst/ARMTemplateForFactory.json
         deploymentMode: Incremental
-        parameters: >
-          factoryName=raksecondadf
-          FileServer1_properties_typeProperties_host="\\rakadfsecondvm\dsnasfs01\Risk Management\Market Risk & Middle Office\"
+        parameters: |
+          factoryName=raksecondadf \
+          FileServer1_properties_typeProperties_host="\\rakadfsecondvm\dsnasfs01\Risk Management\Market Risk & Middle Office\" \
           FileServer1_password="Hemang@12345"
