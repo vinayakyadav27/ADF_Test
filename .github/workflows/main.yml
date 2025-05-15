@@ -4,6 +4,16 @@ on:
   #   branches:
   #     - adf_publish
   workflow_dispatch:
+    inputs:
+      environment:
+        description: "Select Environment"
+        required: true
+        default: "dev"
+        type: choice
+        options:
+          - dev
+          - staging
+          - prod
 
 permissions:
   id-token: write
